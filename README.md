@@ -11,3 +11,4 @@ I will try to write about how does internet work, what happens when you browse a
 IP addresses are the mailing addresses for any electronic device which has internet connection. 
 Ther are two different standards for IP adrreses: IPv4 and IPv6. IPv4 is an older version and uses only 32 bits, an example to IPv4 address is: 192.168.2.1 IPv6 on the other hand uses 128 bits and it could look like this: 542d:a1ff:3a32:1933:d8bb:9690:1d9d:8cf5
 
+<h3>What happens if you acctualy type an IP address to your browser?</h3>
