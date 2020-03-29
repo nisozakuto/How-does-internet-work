@@ -11,6 +11,23 @@ I will try to write about how does internet work, what happens when you browse a
 IP addresses are the mailing addresses for any electronic device which has internet connection. 
 Ther are two different standards for IP adrreses: IPv4 and IPv6. IPv4 is an older version and uses only 32 bits, an example to IPv4 address is: 192.168.2.1 IPv6 on the other hand uses 128 bits and it could look like this: 542d:a1ff:3a32:1933:d8bb:9690:1d9d:8cf5
 
+
+<h2>What happens when you type github.com in your browser</h2>
+The moment you press enter - 140.82.114.3 -, your browser will get a 301 response which will return you the domain name of the associarted website. 
+Then the browser will act like as if you typed github.com.
+
+The result should be the bones of the website. On the top lines of the HTML, Github includes dns-prefetch links.
+
+>DNS-prefetch is an attempt to resolve domain names before resources get requested. This could be a file loaded later or link target a user tries to follow.
+
+The websites uses this to reduce the latency. Later in the HTML, there will be a request to a 3rd party source. For that request to be sent, browser needs to know the IP address. DNS prefect will help resolving it earlier in load.
+
+Then comes the CSS file(s). 
+The requests are made to those addresses and they return the CSS, the styling they need on the page. 
+
+Next is the assets and the JS files which is important for the look of the website as well as some other functions that the page needs.
+
+
 <h3>What happens if you acctualy type an IP address to your browser?</h3>
 
 <h3>Conversion</h3>
