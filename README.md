@@ -1,4 +1,4 @@
-# How-does-internet-work-
+# How does the internet work
 I will try to write about how does internet work, what happens when you browse a website and more
 
 <h3>How does my computer at home/office work?</h3>
